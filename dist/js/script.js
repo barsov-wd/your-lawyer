@@ -1,6 +1,10 @@
 window.addEventListener('DOMContentLoaded', () => {
     
-
+    // document.querySelectorAll('video').forEach((item, index) => {
+    //     item.addEventListener('canplay', () => {
+    //         item.load()
+    //     }, {once: true})
+    // });
     // функция для модалки
 
     function calcScroll() {
