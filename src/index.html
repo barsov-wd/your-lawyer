@@ -9,6 +9,7 @@
 
 
     <link rel="stylesheet" href="css/style.min.css">
+
 </head>
 <body>
 
@@ -67,6 +68,12 @@
                         <p class="promo__content-descr">
                             Вы можете быстро получить консультацию юриста онлайн или по телефону
                         </p>
+                        <div class="promo__image-mobile">
+                            <video playsinline autoplay loop muted controls class="promo__video">
+                                <source src="./img/promo/video.mp4" type="video/mp4">
+                            </video>
+                            <img src="./img/promo/promo-image-mobile.png" alt="promo-image-mobile">
+                        </div>
                         <button class="button promo__content-button">
                             Задайте вопрос
                         </button>
@@ -76,8 +83,8 @@
                         </span>
                     </div>
                     <div class="promo__image">
-                        <video playsinline autoplay loop class="promo__video">
-                            <source src="img/promo/video.mp4" type="video/mp4">
+                        <video playsinline autoplay loop class="promo__video loazed">
+                            <source src="./img/promo/video.mp4" type="video/mp4">
                         </video>
                         <img src="./img/promo/promo-image.png" alt="promo-image">
                     </div>
@@ -141,7 +148,7 @@
         </section>
         <!-- ./quiz -->
 
-        <section class="last" style="display: block;">
+        <section class="last" style="display: none;">
             <div class="container">
                 <div class="last__progress-block">
                     <div class="last__progress-state">
@@ -587,6 +594,16 @@
     </footer>
     <!-- ./footer -->
 
+    <div class="fix-block">
+        <button class="link-fix">
+            <img src="./img/linkFix.png" alt="phone">
+            <video playsinline autoplay loop muted class="link-fix__video">
+                <source src="./img/videoFix.mp4" type="video/mp4">
+            </video>
+        </button>
+    </div>
+   
+
     <div class="modal modal-main">
         <div class="modal__container">
             <form class="modal-main__dialog" action="#">
@@ -622,7 +639,8 @@
         </div>
     </div>
     <!-- ./modal-thanks -->
-
+    
     <script src="js/script.js"></script>
+    
 </body>
 </html>

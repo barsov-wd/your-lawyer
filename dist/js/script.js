@@ -1,4 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
+    
+
     // функция для модалки
 
     function calcScroll() {

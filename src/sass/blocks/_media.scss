@@ -8,6 +8,28 @@
     .container {
         max-width: 1300px;
     }
+    .promo {
+        padding-bottom: 125px;
+        &__content-title {
+            font-size: 58px;
+            line-height: 67px;
+        }
+        &__content-descr {
+            font-size: 30px;
+            line-height: 36px;
+        }
+        &__video {
+            top: 22px;
+            right: 90px;
+            width: 435px;
+        }
+        &__image {
+            img {
+                width: 600px;
+            }
+            // width: 600px;
+        }
+    }
     .quiz {
         padding-top: 65px;
         &__progress-block {
@@ -152,6 +174,30 @@
         max-width: 1200px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .promo {
+        padding-top: 55px;
+        padding-bottom: 95px;
+        &__image {
+            img {
+                width: 495px;
+            }
+        }
+        &__video {
+            top: 18px;
+            right: 73px;
+            width: 360px;
+        }
+        &__content-title {
+            font-size: 50px;
+            line-height: 62px;
+            margin-bottom: 30px;
+        }
+        &__content-descr {
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 40px;
+        }
     }
     .quiz {
         &__title {
@@ -421,6 +467,28 @@
             img {
                 width: 220px;
             }
+        }
+    }
+    .promo {
+        padding-top: 44px;
+        padding-bottom: 85px;
+        &__content-title {
+            font-size: 44px;
+            line-height: 58px;
+            margin-bottom: 25px;
+        }
+        &__content-descr {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+        &__content-text {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &__content-button {
+            width: 345px;
+            height: 65px;
         }
     }
     .button {
@@ -708,6 +776,43 @@
                 left: 15px;
                 background-size: contain;
             }
+        }
+    }
+    .promo {
+        padding-top: 34px;
+        padding-bottom: 70px;
+        &__image {
+            img {
+                width: 385px;
+            }
+        }
+        &__content-title {
+            font-size: 32px;
+            line-height: 37px;
+            margin-bottom: 12px;
+        }
+        &__content-descr {
+            max-width: 402px;
+            width: 100%;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 15px;
+        }
+        &__content-button {
+            width: 210px;
+            height: 37px;
+            margin-bottom: 6px;
+        }
+        &__content-text {
+            max-width: 194px;
+            width: 100%;
+            font-size: 9px;
+            line-height: 11px;
+        }
+        &__video {
+            top: 12px;
+            right: 57px;
+            width: 281px;
         }
     }
     .button {
@@ -1252,6 +1357,22 @@
             display: block;
         }
     }
+    .promo {
+        &__content-title {
+            font-size: 30px;
+            line-height: 34px;
+        }
+        &__image {
+            img {
+                width: 345px;
+            }
+        }
+        &__video {
+            top: 12px;
+            right: 51px;
+            width: 251px;
+        }
+    }
     .reviews {
         .container {
             padding-left: 0;
@@ -1331,6 +1452,42 @@
 }
 
 @media (max-width: 767px) {
+    .promo {
+        &__inner {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        &__image {
+            display: none;
+        }
+        &__content-text {
+            margin: 0 auto;
+        }
+        &__content-descr {
+            margin-bottom: 25px;
+        }
+        &__image-mobile {
+            position: relative;
+            display: block;
+            margin-bottom: 23px;
+        }
+        &__video {
+            position: absolute;
+            top: 12px;
+            right: 84px;
+            width: 242px;
+        }
+        &__content-button {
+            width: 335px;
+            height: 50px;
+        }
+        &__content-text {
+            max-width: 299px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
     .quiz {
         &__progress-block {
             width: 520px;
@@ -1547,6 +1704,23 @@
     .title {
         font-size: 24px;
         line-height: 28px;
+    }
+    .promo {
+        padding-top: 24px;
+        padding-bottom: 67px;
+        &__content-title {
+            max-width: 335px;
+            width: 100%;
+            font-size: 38px;
+            line-height: 44px;
+            margin: 0 auto 10px;
+        }
+        &__content-descr {
+            max-width: 328px;
+        }
+        &__video {
+            right: 50px;
+        }
     }
     .quiz {
         padding-top: 20px;
